@@ -6,10 +6,10 @@ AudioSegment.converter = "C:\\ffmpeg\\bin\\ffmpeg.exe"
 print((AudioSegment.converter))
 
 # Load the audio file
-audio = AudioSegment.from_file("sound/sound.mp3")
+audio = AudioSegment.from_file("sound/nosound.mp3")
 
 # Create a directory to store the clips if it doesn't exist
-output_directory = "sound_folder"
+output_directory = "nosound_folder"
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
